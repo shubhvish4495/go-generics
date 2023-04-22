@@ -28,7 +28,7 @@ func main() {
 
 	arr = append(arr, sliceVal...)
 
-    //This sorting is inplace
+    	//This sorting is inplace
 	arr.Sort()
 	fmt.Println("Sorted array ", arr)
 }
