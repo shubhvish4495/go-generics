@@ -19,6 +19,7 @@ func (arr GenericSlice[T]) AddElements() T {
 }
 
 // Sort sorts a GenericSlice into ascending order
+// the sorting is done in place.
 func (arr GenericSlice[T]) Sort() {
 	sort.Slice(arr, func(i, j int) bool {
 		return arr[i] < arr[j]
