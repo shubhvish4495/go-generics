@@ -1,4 +1,4 @@
-module go-generics
+module github.com/shubhvish4495/go-generics
 
 go 1.19
 
